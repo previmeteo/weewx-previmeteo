@@ -35,7 +35,7 @@ def logerr(msg):
 class StdPrevimeteo(weewx.restx.StdRESTful):
     """Specialized version of the Ambient protocol for Previmeteo"""
 
-    archive_url = "http://www.previmeteo.com/scripts/stations/updateweatherstation.php"
+    archive_url = "https://www.previmeteo.com/scripts/stations/updateweatherstation.php"
 
     def __init__(self, engine, config_dict):
 
